@@ -1,0 +1,35 @@
+/* DEFAULT DEFINITION */
+html{    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative
+}
+body { margin:0; padding:0; font:13px "Open Sans Condensed", Tahoma, serif; color:#666666;  background-color:#fff;}
+
+/*structure */
+#content {width:975px;  padding:25px 0px; color:#000; text-align:left;  margin: 0 auto;}
+
+#footer {border-top:dotted 1px; background-color:#24335b; width:100%; margin-left:1px; color:#fff; padding:10px; text-align:center; height:auto; min-height:100%;
+        margin: 0 auto;}
+
+/**page styles**/
+a {color:#1873CD; font-weight:bold; text-decoration:none;}
+a:hover {color:#000066;}
+a:visted {color:#990000;}
+ul, li, td {text-align:left; color:#000; margin:0px;}
+li {padding:5px 0px;}
+h1 {font-size:24px; margin-top:7px; margin-bottom:5px; font-family:"Oswald", Arial, serif; color:#24335b; letter-spacing:1px; font-weight:normal;}
+h2 {font-size:16px; margin-top:7px;font-family:"Oswald", Arial, serif; color:#24335b;}
+h3 {font-size:16px; border-bottom:1px solid #ccc; border-right:1px solid #123456; font-family:"PT Sans Narrow", arial; color:#24335b; font-weight:normal; width:25%; float:left; margin-right:15px; }
+p {margin-left:25px;}
+	
+/**attribute styles**/
+.address {float:right; margin-top:-53px;}
+.bullets {padding:5px 0px;}
+.box {border:1px solid #ccc; background-color:#efefef; padding:5px; color:#123456;}
+.box p{text-align:center;}
+.header {font-size:10pt;color:#164579; background-color:#dedede; border-bottom:1px solid #123456; padding:8px; margin:30px 0px 15px 0px; text-transform:uppercase; font-weight:bold;}
+.date {float:right; font-weight:normal;}
+.chartMiddle {color:#333; font-size:14px; font-weight:bold;}
+.chart {font-size:11px; font-weight:bold;}
+.alt {background-color:#efefef; padding:10px; margin:10px 35px;}
+.position{margin-left:35px;}
+.pop{height:auto; min-height:350px;}
